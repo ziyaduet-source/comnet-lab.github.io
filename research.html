@@ -1,0 +1,247 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" /><meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Research — ComNeT Lab</title>
+  <link rel="stylesheet" href="style.css" />
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&family=Merriweather:wght@300;400;700&display=swap" rel="stylesheet" />
+</head>
+<body>
+  <nav class="navbar" id="navbar">
+    <div class="nav-container">
+      <a href="index.html" class="nav-logo"><span class="logo-icon">⬡</span><span>ComNeT Lab</span></a>
+      <button class="nav-toggle" id="navToggle"><span></span><span></span><span></span></button>
+      <ul class="nav-links" id="navLinks">
+        <li><a href="about.html">About</a></li>
+        <li><a href="research.html" class="active-page">Research</a></li>
+        <li><a href="team.html">Team</a></li>
+        <li><a href="alumni.html">Alumni</a></li>
+        <li><a href="publications.html">Publications</a></li>
+        <li><a href="news.html">News</a></li>
+        <li><a href="contact.html" class="nav-cta">Contact</a></li>
+      </ul>
+    </div>
+  </nav>
+
+  <div class="page-hero">
+    <div class="container page-hero-content">
+      <div class="page-hero-badge">ComNeT Lab · University of Ulsan</div>
+      <h1>Research Areas</h1>
+      <p>Four core research thrusts unifying wireless communications, energy systems, industrial AI, and blockchain security.</p>
+    </div>
+  </div>
+
+  <section class="section" style="background:var(--white);">
+    <div class="container">
+
+      <!-- Area 1: Wireless -->
+      <div class="research-card anim-target">
+        <div class="rc-inner">
+          <div class="rc-img">
+            <img src="http://comnet.ulsan.ac.kr/projects/UDN.png" alt="5G Ultra Dense Network" />
+          </div>
+          <div class="rc-body">
+            <span class="rc-num">Research Area 01</span>
+            <h2>Wireless Network Optimization for 5G and Beyond</h2>
+            <p>
+              We focus on boosting edge throughput through multi-connectivity and Coordinated Multi-Point
+              (CoMP) techniques, allowing simultaneous connections to multiple nodes for resilient,
+              high-throughput service. Integrating 5G terrestrial and satellite communications further
+              expands coverage, delivering seamless high-speed connectivity to remote areas.
+            </p>
+            <p>
+              This combined approach enhances network reliability, supports diverse applications like IoT,
+              and ensures resilient, ubiquitous access in the evolving 5G landscape. Our algorithms span
+              resource allocation, handover management, mobility robustness optimization, and load balancing
+              in heterogeneous network (HetNet) environments.
+            </p>
+            <ul class="rc-topics">
+              <li>Resource Allocation &amp; MAC Protocol Design</li>
+              <li>Handover Optimization &amp; Mobility Management</li>
+              <li>Load Balancing in HetNets (LTE, 5G)</li>
+              <li>Coordinated Multi-Point (CoMP) Transmission</li>
+              <li>5G Satellite-Terrestrial Integration</li>
+              <li>Reconfigurable Intelligent Surfaces (RIS)</li>
+              <li>mmWave Channel Modeling &amp; Beamforming</li>
+            </ul>
+            <div class="rc-collabs">
+              <span class="rc-collab-tag">ETRI</span>
+              <span class="rc-collab-tag">KNRF</span>
+              <span class="rc-collab-tag">IMDEA Networks</span>
+              <span class="rc-collab-tag">ÉTS Canada</span>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <!-- Area 2: Energy ICT -->
+      <div class="research-card rc-alt anim-target">
+        <div class="rc-inner">
+          <div class="rc-img">
+            <img src="http://comnet.ulsan.ac.kr/projects/energy_ict.png" alt="Energy ICT" />
+          </div>
+          <div class="rc-body">
+            <span class="rc-num">Research Area 02</span>
+            <h2>Energy ICT</h2>
+            <p>
+              The Internet of Things (IoT) enhances renewable energy networks by enabling efficient
+              energy resource management and real-time monitoring across solar, wind, and other systems.
+              A secure network for energy networks is vital, protecting against cyber threats and ensuring
+              reliable power flow.
+            </p>
+            <p>
+              Machine Learning (ML) applications enable predictive insights, such as forecasting energy
+              demand and optimizing grid balance. Together, IoT, secure networking, and ML create adaptive,
+              efficient, and resilient renewable energy networks. Our work includes LSTM and Transformer-based
+              forecasting models and cooperative multi-agent RL for battery management.
+            </p>
+            <ul class="rc-topics">
+              <li>Solar &amp; Wind Power Forecasting (LSTM, Transformers)</li>
+              <li>Battery Energy Storage System (BESS) Optimization</li>
+              <li>IoT-enabled Smart Grid Monitoring</li>
+              <li>State-of-Charge (SoC) Estimation via Kalman Filter</li>
+              <li>Cooperative Multi-Agent DQN for Battery Packs</li>
+              <li>Renewable Energy Network Security</li>
+              <li>Packetized Energy Frameworks</li>
+            </ul>
+            <div class="rc-collabs">
+              <span class="rc-collab-tag">Sesu.ai</span>
+              <span class="rc-collab-tag">KHNP</span>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <!-- Area 3: Smart Factory -->
+      <div class="research-card anim-target">
+        <div class="rc-inner">
+          <div class="rc-img">
+            <img src="http://comnet.ulsan.ac.kr/projects/factory.jpg" alt="Smart Factory" />
+          </div>
+          <div class="rc-body">
+            <span class="rc-num">Research Area 03</span>
+            <h2>Smart Factory</h2>
+            <p>
+              Smart factories leverage advanced AI techniques for real-time fault diagnosis and process
+              optimization, enhancing productivity and reducing downtime. By using AI algorithms, these
+              factories can automatically detect, predict, and address equipment faults, ensuring
+              continuous operation.
+            </p>
+            <p>
+              AI-driven systems also optimize production flows, adapt to demand fluctuations, and improve
+              resource utilization. This integration of AI not only boosts efficiency but also supports a
+              resilient, adaptive manufacturing environment essential for Industry 4.0. Our CNN-based
+              real-time classification systems have been applied to diesel engine fault detection and
+              marine engine load classification.
+            </p>
+            <ul class="rc-topics">
+              <li>CNN-based Real-Time Fault Detection &amp; Classification</li>
+              <li>Diesel Engine Load Classification (1D vs 2D CNN)</li>
+              <li>Industrial AI &amp; Predictive Maintenance</li>
+              <li>Process Optimization &amp; Flow Adaptation</li>
+              <li>Time-Series Sensor Data Analysis</li>
+            </ul>
+            <div class="rc-collabs">
+              <span class="rc-collab-tag">Sesu.ai</span>
+              <span class="rc-collab-tag">KHNP</span>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <!-- Area 4: Blockchain -->
+      <div class="research-card rc-alt anim-target">
+        <div class="rc-inner">
+          <div class="rc-img">
+            <img src="http://comnet.ulsan.ac.kr/projects/Blockchain.webp" alt="Blockchain" />
+          </div>
+          <div class="rc-body">
+            <span class="rc-num">Research Area 04</span>
+            <h2>Blockchain in Wireless Communication</h2>
+            <p>
+              Blockchain is enhancing security in wireless networks by using decentralized, tamper-resistant
+              ledgers to prevent data breaches. Integrating IoT with blockchain ensures secure, verifiable
+              communication between connected devices.
+            </p>
+            <p>
+              Additionally, decentralized management of wireless data networks minimizes reliance on central
+              authorities, boosting network resilience. Machine learning further optimizes blockchain protocols,
+              enhancing efficiency and scalability for dynamic wireless environments. We study sharding
+              blockchain channel modeling for next-generation IoT and RAN resource allocation secured by blockchain.
+            </p>
+            <ul class="rc-topics">
+              <li>Sharding Blockchain-enabled Wireless IoT Channel Modeling</li>
+              <li>Blockchain-enabled RAN Resource Allocation</li>
+              <li>Decentralized Wireless Data Network Management</li>
+              <li>IoT Security via Distributed Ledgers</li>
+              <li>ML-Optimized Blockchain Protocols</li>
+            </ul>
+            <div class="rc-collabs">
+              <span class="rc-collab-tag">Sesu.ai</span>
+              <span class="rc-collab-tag">KHNP</span>
+              <span class="rc-collab-tag">ETRI</span>
+              <span class="rc-collab-tag">HHI</span>
+              <span class="rc-collab-tag">SpaceCode</span>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <!-- Area 5: Vehicular & Sensor -->
+      <div class="research-card anim-target">
+        <div class="rc-inner">
+          <div class="rc-img">
+            <img src="http://comnet.ulsan.ac.kr/projects/project04.jpg" alt="Vehicular Networks" />
+          </div>
+          <div class="rc-body">
+            <span class="rc-num">Research Area 05</span>
+            <h2>Vehicular &amp; Sensor Networks / Bio-Signal Processing</h2>
+            <p>
+              ComNeT also conducts research on vehicular communications (V2V, V2I, In-Vehicle),
+              sensor-based indoor positioning systems, and bio-signal processing for health monitoring.
+              These projects span MAC protocol design for emergency message forwarding in vehicular
+              environments and wavelet-based PPG signal processing for wearable health devices.
+            </p>
+            <p>
+              Our indoor positioning work combines ultrasonic and RF signals for accurate 3D localization
+              in indoor environments, with applications in healthcare and industrial monitoring.
+            </p>
+            <ul class="rc-topics">
+              <li>V2V Emergency Message Forwarding Protocols</li>
+              <li>Indoor Positioning (Ultrasonic &amp; RF fusion)</li>
+              <li>PPG Motion Noise Cancellation (Wavelet Transform)</li>
+              <li>IoT for Healthcare Access (Deaf Patient Systems)</li>
+              <li>Wearable Bio-Sensor Systems</li>
+            </ul>
+          </div>
+        </div>
+      </div>
+
+    </div>
+  </section>
+
+  <section class="cta-banner">
+    <div class="container">
+      <h2>Collaborate with ComNeT</h2>
+      <p>We welcome industry and academic collaborations across all our research areas.</p>
+      <div class="cta-actions">
+        <a href="contact.html" class="btn btn-primary">Get in Touch</a>
+        <a href="publications.html" class="btn btn-outline">View Publications</a>
+      </div>
+    </div>
+  </section>
+
+  <footer class="footer">
+    <div class="container">
+      <div class="footer-grid">
+        <div class="footer-brand"><div class="footer-logo"><span class="logo-icon">⬡</span><span>ComNeT Lab</span></div><p>Communications and Networking Laboratory<br/>School of Electrical Engineering, University of Ulsan, Korea</p></div>
+        <div class="footer-links-col"><h5>Pages</h5><ul><li><a href="index.html">Home</a></li><li><a href="about.html">About</a></li><li><a href="research.html">Research</a></li><li><a href="team.html">Team</a></li><li><a href="publications.html">Publications</a></li><li><a href="contact.html">Contact</a></li></ul></div>
+        <div class="footer-links-col"><h5>Research Areas</h5><ul><li><a href="#">5G/6G Optimization</a></li><li><a href="#">Energy ICT</a></li><li><a href="#">Smart Factory</a></li><li><a href="#">Blockchain &amp; IoT</a></li></ul></div>
+        <div class="footer-links-col"><h5>Contact</h5><ul><li><a href="mailto:comnet.uou@gmail.com">comnet.uou@gmail.com</a></li><li><a href="https://comnet.ulsan.ac.kr/">comnet.ulsan.ac.kr</a></li></ul></div>
+      </div>
+      <div class="footer-bottom"><p>&copy; 2026 ComNeT Lab, University of Ulsan.</p><div class="footer-social"><a href="https://comnet.ulsan.ac.kr/">🌐</a><a href="mailto:comnet.uou@gmail.com">✉</a></div></div>
+    </div>
+  </footer>
+  <script src="script.js"></script>
+</body>
+</html>

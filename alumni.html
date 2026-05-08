@@ -1,0 +1,351 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" /><meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Alumni — ComNeT Lab</title>
+  <link rel="stylesheet" href="style.css" />
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&family=Merriweather:wght@300;400;700&display=swap" rel="stylesheet" />
+  <style>
+    .alumni-photo-wrap {
+      width: 60px; height: 60px; border-radius: 50%; overflow: hidden;
+      flex-shrink: 0; border: 2px solid var(--green); background: var(--gray-100);
+    }
+    .alumni-photo-wrap img { width:100%; height:100%; object-fit:cover; object-position:center top; display:block; }
+
+    .alumni-section-title {
+      font-family: 'Merriweather', serif;
+      font-size: 1.25rem;
+      font-weight: 700;
+      color: var(--green);
+      border-left: 4px solid var(--green);
+      padding-left: 0.85rem;
+      margin: 2.5rem 0 1.25rem;
+    }
+
+    .alumni-stats-bar {
+      display: flex; gap: 2rem; flex-wrap: wrap;
+      background: var(--dark-nav);
+      border-radius: 14px;
+      padding: 1.75rem 2.25rem;
+      margin-bottom: 2.5rem;
+    }
+    .alumni-stat { text-align: center; }
+    .alumni-stat-num { display: block; font-size: 2rem; font-weight: 700; color: var(--green); }
+    .alumni-stat-label { font-size: 0.8rem; color: rgba(255,255,255,0.55); text-transform: uppercase; letter-spacing: 0.06em; }
+
+    .placement-badge {
+      display: inline-block;
+      font-size: 0.72rem; font-weight: 600;
+      color: var(--green);
+      background: rgba(0,156,91,0.1);
+      border: 1px solid rgba(0,156,91,0.25);
+      border-radius: 20px;
+      padding: 2px 10px;
+      margin-top: 0.3rem;
+    }
+  </style>
+</head>
+<body>
+  <nav class="navbar" id="navbar">
+    <div class="nav-container">
+      <a href="index.html" class="nav-logo"><span class="logo-icon">⬡</span><span>ComNeT Lab</span></a>
+      <button class="nav-toggle" id="navToggle"><span></span><span></span><span></span></button>
+      <ul class="nav-links" id="navLinks">
+        <li><a href="about.html">About</a></li>
+        <li><a href="research.html">Research</a></li>
+        <li><a href="team.html">Team</a></li>
+        <li><a href="alumni.html" class="active-page">Alumni</a></li>
+        <li><a href="publications.html">Publications</a></li>
+        <li><a href="news.html">News</a></li>
+        <li><a href="contact.html" class="nav-cta">Contact</a></li>
+      </ul>
+    </div>
+  </nav>
+
+  <div class="page-hero">
+    <div class="container page-hero-content">
+      <div class="page-hero-badge">ComNeT Lab · University of Ulsan</div>
+      <h1>Alumni</h1>
+      <p>Former researchers, graduates, and visiting scholars who have passed through ComNeT Lab.</p>
+    </div>
+  </div>
+
+  <section class="section" style="background:var(--white);">
+    <div class="container">
+
+      <!-- Stats bar -->
+      <div class="alumni-stats-bar">
+        <div class="alumni-stat"><span class="alumni-stat-num">5+</span><span class="alumni-stat-label">PhD Graduates</span></div>
+        <div class="alumni-stat"><span class="alumni-stat-num">10+</span><span class="alumni-stat-label">MS Graduates</span></div>
+        <div class="alumni-stat"><span class="alumni-stat-num">3+</span><span class="alumni-stat-label">Former Post-Docs</span></div>
+        <div class="alumni-stat"><span class="alumni-stat-num">2+</span><span class="alumni-stat-label">Visiting Scholars</span></div>
+      </div>
+
+      <!-- ═══ FORMER POST-DOCS / VISITING FACULTY ═══ -->
+      <h3 class="alumni-section-title">Former Post-Doctoral Researchers &amp; Visiting Faculty</h3>
+      <div class="alumni-grid">
+
+        <div class="alumni-card anim-target">
+          <div class="alumni-photo-wrap">
+            <img src="http://comnet.ulsan.ac.kr/members/Feyissa.jpg" alt="Dr. Feyisa Diba Debo" />
+          </div>
+          <div class="alumni-info">
+            <h4>Dr. Feyisa Diba Debo</h4>
+            <p>Post-Doc 2021–2022 · <em>Wireless Communication Networking, mmWave Propagation for 5G and Beyond</em></p>
+            <p style="font-size:0.79rem;color:var(--text-muted);">Ph.D., University of KwaZulu-Natal, 2017 · feyisa2006@yahoo.com</p>
+            <span class="placement-badge">→ Assistant Professor, Adama Science and Technology University, Ethiopia</span>
+          </div>
+        </div>
+
+        <div class="alumni-card anim-target">
+          <div class="alumni-photo-wrap">
+            <img src="http://comnet.ulsan.ac.kr/members/Professor_Pham.jpg" alt="Prof. Hung Pham-Viet" />
+          </div>
+          <div class="alumni-info">
+            <h4>Prof. Hung Pham-Viet</h4>
+            <p>Visiting Professor · <em>Signal Processing in GNSS, Digital Transmission, Maritime Communications</em></p>
+            <p style="font-size:0.79rem;color:var(--text-muted);">Ph.D., Hanoi University of Science &amp; Technology, 2015 · phamviethung(AT)vimaru.edu.vn</p>
+            <span class="placement-badge">→ Lecturer, Vietnam Maritime University (2003–present)</span>
+          </div>
+        </div>
+
+      </div>
+
+      <!-- ═══ PHD GRADUATES ═══ -->
+      <h3 class="alumni-section-title">Ph.D. Graduates</h3>
+      <div class="alumni-grid">
+
+        <div class="alumni-card anim-target">
+          <div class="alumni-photo-wrap">
+            <img src="http://comnet.ulsan.ac.kr/members/Yemane.jpg" alt="Dr. Yemane Teklay Seyoum" />
+          </div>
+          <div class="alumni-info">
+            <h4>Dr. Yemane Teklay Seyoum</h4>
+            <p>Ph.D. February 2026 · <em>IoT, Massive MIMO, Wireless Backhauling, NR-U Load Balancing</em></p>
+            <p style="font-size:0.79rem;color:var(--text-muted);">B.S., Bahir Dar University, 2008 · yemaneteklay@gmail.com</p>
+            <span class="placement-badge">→ Academic / Research Position</span>
+          </div>
+        </div>
+
+        <div class="alumni-card anim-target">
+          <div class="alumni-photo-wrap">
+            <img src="http://comnet.ulsan.ac.kr/members/manan_2.jpg" alt="Dr. Manan Abdul" />
+          </div>
+          <div class="alumni-info">
+            <h4>Dr. Manan Abdul</h4>
+            <p>Ph.D. February 2026 · <em>Antenna Design, Cellular Network Optimization, Wireless Sensor Networks</em></p>
+            <p style="font-size:0.79rem;color:var(--text-muted);">B.S., UET Taxila, Pakistan, 2019 · manan0126@gmail.com</p>
+            <span class="placement-badge">→ Telecommunications Industry</span>
+          </div>
+        </div>
+
+        <div class="alumni-card anim-target">
+          <div class="alumni-photo-wrap">
+            <img src="http://comnet.ulsan.ac.kr/members/Thang.jpg" alt="Dr. Thang Minh Nguyen" />
+          </div>
+          <div class="alumni-info">
+            <h4>Dr. Thang Minh Nguyen</h4>
+            <p>Ph.D. February 2021 · <em>"Enhanced Mobility Management Algorithms for Cellular Networks"</em></p>
+            <p style="font-size:0.79rem;color:var(--text-muted);">B.S., VNU Ho Chi Minh City, 2013 · minhthang711@gmail.com</p>
+            <span class="placement-badge">→ Post-Doc Researcher, ÉTS (École de technologie supérieure), Canada</span>
+          </div>
+        </div>
+
+        <div class="alumni-card anim-target">
+          <div class="alumni-photo-wrap">
+            <img src="http://comnet.ulsan.ac.kr/members/Hasan.jpg" alt="Dr. Md Mehedi Hasan" />
+          </div>
+          <div class="alumni-info">
+            <h4>Dr. Md Mehedi Hasan</h4>
+            <p>Ph.D. May 2019 · <em>"Quality of Experience Enhancement in Cellular Networks"</em></p>
+            <p style="font-size:0.79rem;color:var(--text-muted);">B.S., University of Chittagong, 2009 · hasan3345@gmail.com</p>
+            <span class="placement-badge">→ Assistant Professor, American International University — Bangladesh (AIUB)</span>
+          </div>
+        </div>
+
+      </div>
+
+      <!-- ═══ MS GRADUATES ═══ -->
+      <h3 class="alumni-section-title">Master's Graduates</h3>
+      <div class="alumni-grid">
+
+        <div class="alumni-card anim-target">
+          <div class="alumni-photo-wrap">
+            <img src="http://comnet.ulsan.ac.kr/members/huruy.JPG" alt="Huruy Negash Zerihun" />
+          </div>
+          <div class="alumni-info">
+            <h4>Huruy Negash Zerihun</h4>
+            <p>M.S. 2025 · <em>Bioinformatics, Computer Vision, Machine Learning, IoT</em></p>
+            <p style="font-size:0.79rem;color:var(--text-muted);">B.Sc. Biomedical Eng., AAiT, Ethiopia, 2021 · huruynegash89@gmail.com</p>
+            <span class="placement-badge">→ Industry</span>
+          </div>
+        </div>
+
+        <div class="alumni-card anim-target">
+          <div class="alumni-photo-wrap">
+            <img src="http://comnet.ulsan.ac.kr/members/Huy.jpg" alt="Quang Huy Tran" />
+          </div>
+          <div class="alumni-info">
+            <h4>Quang Huy Tran</h4>
+            <p>M.S. 2024 · <em>"Load Balancing for Integrated Access and Backhaul in mmWave Small Cells"</em></p>
+            <p style="font-size:0.79rem;color:var(--text-muted);">B.S., Vietnam National University, 2017 · huytran1126@gmail.com</p>
+            <span class="placement-badge">→ Industry / Research</span>
+          </div>
+        </div>
+
+        <div class="alumni-card anim-target">
+          <div class="alumni-photo-wrap">
+            <img src="http://comnet.ulsan.ac.kr/members/Hung.jpg" alt="Le Hung Nguyen" />
+          </div>
+          <div class="alumni-info">
+            <h4>Le Hung Nguyen</h4>
+            <p>M.S. 2018 · <em>"Adaptive Interference Coordination with Relay Function in LTE Heterogeneous Networks"</em></p>
+            <p style="font-size:0.79rem;color:var(--text-muted);">B.S., VNU Vietnam, 2012 · lehung.nguyen.27@gmail.com</p>
+            <span class="placement-badge">→ Industry</span>
+          </div>
+        </div>
+
+        <div class="alumni-card anim-target">
+          <div class="alumni-photo-wrap">
+            <img src="http://comnet.ulsan.ac.kr/members/Jo.jpg" alt="Jo Baek Du" />
+          </div>
+          <div class="alumni-info">
+            <h4>Jo Baek Du</h4>
+            <p>M.S. 2017 · <em>"Indoor Positioning System using Ultrasonic and RF"</em></p>
+            <p style="font-size:0.79rem;color:var(--text-muted);">B.S. &amp; M.S., University of Ulsan · toplic82@gmail.com</p>
+            <span class="placement-badge">→ Industry</span>
+          </div>
+        </div>
+
+        <div class="alumni-card anim-target">
+          <div class="alumni-photo-wrap">
+            <img src="http://comnet.ulsan.ac.kr/members/Ban.jpg" alt="Da Hee Ban" />
+          </div>
+          <div class="alumni-info">
+            <h4>Da Hee Ban</h4>
+            <p>M.S. 2017 · <em>"Movement Noise Cancellation in Second Derivative of PPG Signals with Wavelet Transform"</em></p>
+            <p style="font-size:0.79rem;color:var(--text-muted);">B.S. &amp; M.S., University of Ulsan · ekgml3091@gmail.com</p>
+            <span class="placement-badge">→ Industry</span>
+          </div>
+        </div>
+
+        <div class="alumni-card anim-target">
+          <div class="alumni-photo-wrap">
+            <img src="http://comnet.ulsan.ac.kr/members/Song.jpg" alt="Seong Ho Song" />
+          </div>
+          <div class="alumni-info">
+            <h4>Seong Ho Song</h4>
+            <p>M.S. 2016 · <em>"An Obstacle-Aware Positioning Algorithm in NLOS Environments"</em></p>
+            <p style="font-size:0.79rem;color:var(--text-muted);">B.S. &amp; M.S., University of Ulsan · herb0164@naver.com</p>
+            <span class="placement-badge">→ Industry</span>
+          </div>
+        </div>
+
+        <div class="alumni-card anim-target">
+          <div class="alumni-photo-wrap">
+            <img src="http://comnet.ulsan.ac.kr/members/Thinh.jpg" alt="Trung Kien Vu" />
+          </div>
+          <div class="alumni-info">
+            <h4>Trung Kien Vu</h4>
+            <p>M.S. 2014 · <em>"Resource Allocation in Heterogeneous Networks"</em></p>
+            <p style="font-size:0.79rem;color:var(--text-muted);">B.S., Hanoi University of Science &amp; Technology, 2012 · trungkien.vu@oulu.fi</p>
+            <span class="placement-badge">→ University of Oulu, Finland</span>
+          </div>
+        </div>
+
+        <div class="alumni-card anim-target">
+          <div class="alumni-photo-wrap">
+            <img src="http://comnet.ulsan.ac.kr/members/Faika.jpg" alt="Faika Hoque" />
+          </div>
+          <div class="alumni-info">
+            <h4>Faika Hoque</h4>
+            <p>M.S. 2013 · <em>"Efficient Algorithm for Emergency Message Transmission in a Vehicular Environment"</em></p>
+            <p style="font-size:0.79rem;color:var(--text-muted);">B.S., CUET, 2009 · faika_04@yahoo.com</p>
+            <span class="placement-badge">→ Industry</span>
+          </div>
+        </div>
+
+      </div>
+
+      <!-- ═══ BACHELOR GRADUATES ═══ -->
+      <h3 class="alumni-section-title">Bachelor Graduates</h3>
+      <div class="alumni-grid">
+
+        <div class="alumni-card anim-target">
+          <div class="alumni-photo-wrap">
+            <img src="http://comnet.ulsan.ac.kr/members/Jaemin.jpg" alt="Jae Min Ko" />
+          </div>
+          <div class="alumni-info">
+            <h4>Jae Min Ko</h4>
+            <p>B.S. 2023 · University of Ulsan</p>
+            <p style="font-size:0.79rem;color:var(--text-muted);">jaemin.ko98@gmail.com</p>
+            <span class="placement-badge">→ Industry</span>
+          </div>
+        </div>
+
+        <div class="alumni-card anim-target">
+          <div class="alumni-photo-wrap">
+            <img src="http://comnet.ulsan.ac.kr/members/HEE_SEONG.jpg" alt="Hee Seong Lee" />
+          </div>
+          <div class="alumni-info">
+            <h4>Hee Seong Lee</h4>
+            <p>B.S. 2022 · University of Ulsan</p>
+            <p style="font-size:0.79rem;color:var(--text-muted);">gmltjd1110@gmail.com</p>
+            <span class="placement-badge">→ Industry</span>
+          </div>
+        </div>
+
+      </div>
+
+    </div>
+  </section>
+
+  <section class="cta-banner">
+    <div class="container">
+      <h2>Join the ComNeT Family</h2>
+      <p>Combined MS &amp; PhD positions available. Experience in C++/Python and strong analytical skills required.</p>
+      <div class="cta-actions">
+        <a href="contact.html" class="btn btn-primary">Apply Now</a>
+        <a href="team.html" class="btn btn-outline">Current Members</a>
+      </div>
+    </div>
+  </section>
+
+  <footer class="footer">
+    <div class="container">
+      <div class="footer-grid">
+        <div class="footer-brand">
+          <div class="footer-logo"><span class="logo-icon">⬡</span><span>ComNeT Lab</span></div>
+          <p>Communications and Networking Laboratory<br/>School of Electrical Engineering, University of Ulsan, Korea</p>
+          <p style="margin-top:0.5rem;">comnet.uou@gmail.com</p>
+        </div>
+        <div class="footer-links-col"><h5>Pages</h5><ul>
+          <li><a href="index.html">Home</a></li>
+          <li><a href="about.html">About</a></li>
+          <li><a href="research.html">Research</a></li>
+          <li><a href="team.html">Team</a></li>
+          <li><a href="alumni.html">Alumni</a></li>
+          <li><a href="publications.html">Publications</a></li>
+          <li><a href="contact.html">Contact</a></li>
+        </ul></div>
+        <div class="footer-links-col"><h5>Research</h5><ul>
+          <li><a href="research.html">5G/6G</a></li>
+          <li><a href="research.html">Energy ICT</a></li>
+          <li><a href="research.html">Smart Factory</a></li>
+          <li><a href="research.html">Blockchain</a></li>
+        </ul></div>
+        <div class="footer-links-col"><h5>Contact</h5><ul>
+          <li><a href="mailto:comnet.uou@gmail.com">comnet.uou@gmail.com</a></li>
+          <li><a href="mailto:sungoh@ulsan.ac.kr">sungoh@ulsan.ac.kr</a></li>
+          <li><a href="https://comnet.ulsan.ac.kr/" target="_blank">comnet.ulsan.ac.kr</a></li>
+        </ul></div>
+      </div>
+      <div class="footer-bottom">
+        <p>&copy; 2026 ComNeT Lab, University of Ulsan. All rights reserved.</p>
+        <div class="footer-social"><a href="https://comnet.ulsan.ac.kr/">🌐</a><a href="mailto:comnet.uou@gmail.com">✉</a></div>
+      </div>
+    </div>
+  </footer>
+  <script src="script.js"></script>
+</body>
+</html>

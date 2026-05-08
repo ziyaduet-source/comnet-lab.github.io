@@ -1,0 +1,307 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>ComNeT Lab | Communications and Networking Laboratory — University of Ulsan</title>
+  <link rel="stylesheet" href="style.css" />
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&family=Merriweather:wght@300;400;700&display=swap" rel="stylesheet" />
+</head>
+<body>
+
+  <!-- NAVBAR -->
+  <nav class="navbar" id="navbar">
+    <div class="nav-container">
+      <a href="index.html" class="nav-logo">
+        <span class="logo-icon">⬡</span><span>ComNeT Lab</span>
+      </a>
+      <button class="nav-toggle" id="navToggle"><span></span><span></span><span></span></button>
+      <ul class="nav-links" id="navLinks">
+        <li><a href="about.html">About</a></li>
+        <li><a href="research.html">Research</a></li>
+        <li><a href="team.html">Team</a></li>
+        <li><a href="alumni.html">Alumni</a></li>
+        <li><a href="publications.html">Publications</a></li>
+        <li><a href="news.html">News</a></li>
+        <li><a href="contact.html" class="nav-cta">Contact</a></li>
+      </ul>
+    </div>
+  </nav>
+
+  <!-- HERO -->
+  <section class="hero" id="home">
+    <!-- Creative layered background -->
+    <div class="hero-creative-bg">
+      <div class="hero-banner-overlay"></div>
+      <div class="hero-orb hero-orb--1"></div>
+      <div class="hero-orb hero-orb--2"></div>
+      <div class="hero-orb hero-orb--3"></div>
+      <div class="hero-ring hero-ring--1"></div>
+      <div class="hero-ring hero-ring--2"></div>
+      <div class="hero-ring hero-ring--3"></div>
+      <div class="hero-dot-grid">
+        <span></span><span></span><span></span><span></span><span></span><span></span>
+        <span></span><span></span><span></span><span></span><span></span><span></span>
+        <span></span><span></span><span></span><span></span><span></span><span></span>
+        <span></span><span></span><span></span><span></span><span></span><span></span>
+      </div>
+    </div>
+    <div class="hero-canvas-wrap"><canvas id="networkCanvas"></canvas></div>
+    <div class="hero-content">
+      <div class="hero-badge">University of Ulsan · School of Electrical Engineering · Est. 2010</div>
+      <h1 class="hero-title">
+        Communications and<br/>Networking Laboratory
+        <span class="hero-subtitle-label">ComNeT Lab</span>
+      </h1>
+      <p class="hero-desc">
+        Advancing research in mobile communications, wireless network optimization,
+        energy ICT, smart factory systems, and blockchain-enabled networking
+        for 5G, 6G and the Internet of Things.
+      </p>
+      <div class="hero-actions">
+        <a href="research.html" class="btn btn-primary">Explore Research</a>
+        <a href="team.html" class="btn btn-outline">Meet the Team</a>
+      </div>
+      <div class="hero-stats">
+        <div class="stat"><span class="stat-num">50+</span><span class="stat-label">Journal Papers</span></div>
+        <div class="stat-divider"></div>
+        <div class="stat"><span class="stat-num">25+</span><span class="stat-label">Conf. Papers</span></div>
+        <div class="stat-divider"></div>
+        <div class="stat"><span class="stat-num">15+</span><span class="stat-label">US Patents</span></div>
+        <div class="stat-divider"></div>
+        <div class="stat"><span class="stat-num">2010</span><span class="stat-label">Established</span></div>
+      </div>
+    </div>
+    <div class="hero-scroll-hint"><span>Scroll to explore</span><div class="scroll-arrow"></div></div>
+  </section>
+
+  <!-- LAB PHOTO SLIDESHOW -->
+  <section class="slideshow-section">
+    <div class="container">
+      <div class="section-header" style="margin-bottom:2rem;">
+        <span class="section-tag">Lab Life</span>
+        <h2 class="section-title" style="color:#fff;">Moments from ComNeT</h2>
+      </div>
+      <div class="slideshow-wrap">
+        <div class="slide-counter" id="slideCounter">1 / 13</div>
+
+        <div class="slide active">
+          <img src="http://comnet.ulsan.ac.kr/style/banner.jpg" alt="ComNeT Lab Banner" loading="eager" />
+          <div class="slide-caption">🏫 ComNeT Laboratory — University of Ulsan, Korea</div>
+        </div>
+        <div class="slide">
+          <img src="http://comnet.ulsan.ac.kr/style/lab_year_end_cere.jpg" alt="Year End Ceremony" loading="lazy" />
+          <div class="slide-caption">🎉 Year-End Laboratory Ceremony</div>
+        </div>
+        <div class="slide">
+          <img src="http://comnet.ulsan.ac.kr/style/hangout.jpg" alt="Lab Hangout" loading="lazy" />
+          <div class="slide-caption">🤝 Lab Team Hangout</div>
+        </div>
+        <div class="slide">
+          <img src="http://comnet.ulsan.ac.kr/style/cherry_blossom.jpg" alt="Cherry Blossom" loading="lazy" />
+          <div class="slide-caption">🌸 Spring Cherry Blossoms</div>
+        </div>
+        <div class="slide">
+          <img src="http://comnet.ulsan.ac.kr/style/lablunch1.JPG" alt="Lab Lunch" loading="lazy" />
+          <div class="slide-caption">🍽 Lab Lunch Gathering</div>
+        </div>
+        <div class="slide">
+          <img src="http://comnet.ulsan.ac.kr/style/lablunch2.JPG" alt="Lab Lunch 2" loading="lazy" />
+          <div class="slide-caption">🍜 Team Lunch Together</div>
+        </div>
+        <div class="slide">
+          <img src="http://comnet.ulsan.ac.kr/style/visit1.jpeg" alt="Lab Visit" loading="lazy" />
+          <div class="slide-caption">✈️ Research Collaboration Visit</div>
+        </div>
+        <div class="slide">
+          <img src="http://comnet.ulsan.ac.kr/style/visit2.jpeg" alt="Lab Visit 2" loading="lazy" />
+          <div class="slide-caption">🌏 International Visitor at ComNeT</div>
+        </div>
+        <div class="slide">
+          <img src="http://comnet.ulsan.ac.kr/style/jeju.jpeg" alt="Jeju Trip" loading="lazy" />
+          <div class="slide-caption">🌴 Lab Retreat — Jeju Island</div>
+        </div>
+        <div class="slide">
+          <img src="http://comnet.ulsan.ac.kr/style/ilsanbeach.jpeg" alt="Ilsan Beach" loading="lazy" />
+          <div class="slide-caption">🏖 Ilsan Beach Team Outing</div>
+        </div>
+        <div class="slide">
+          <img src="http://comnet.ulsan.ac.kr/style/hur_farewell.jpeg" alt="Farewell" loading="lazy" />
+          <div class="slide-caption">👋 Farewell Celebration for Huruy</div>
+        </div>
+        <div class="slide">
+          <img src="http://comnet.ulsan.ac.kr/style/Shroff_meeting.jpg" alt="Shroff Meeting" loading="lazy" />
+          <div class="slide-caption">🤝 Meeting with Prof. Ness B. Shroff (Purdue University)</div>
+        </div>
+        <div class="slide">
+          <img src="http://comnet.ulsan.ac.kr/style/oldpic.JPG" alt="Old Lab Photo" loading="lazy" />
+          <div class="slide-caption">📷 Early Days of ComNeT Lab</div>
+        </div>
+
+        <button class="slide-btn prev" id="prevSlide">&#8249;</button>
+        <button class="slide-btn next" id="nextSlide">&#8250;</button>
+      </div>
+      <div class="slide-dots" id="slideDots"></div>
+    </div>
+  </section>
+
+  <!-- RESEARCH PREVIEW -->
+  <section class="section research-preview">
+    <div class="container">
+      <div class="section-header">
+        <span class="section-tag">Research</span>
+        <h2 class="section-title">Our Core Research Areas</h2>
+        <p class="section-desc">We work across four major research thrusts, bridging theory and real-world application for next-generation networks.</p>
+      </div>
+      <div class="rp-grid">
+
+        <div class="rp-card anim-target">
+          <div class="rp-img">
+            <img src="http://comnet.ulsan.ac.kr/projects/UDN.png" alt="5G Wireless Network" />
+          </div>
+          <div class="rp-body">
+            <div class="rp-icon">📡</div>
+            <h3>Wireless Network Optimization for 5G and Beyond</h3>
+            <p>Resource allocation, handover management, load balancing, and CoMP techniques for 5G/6G heterogeneous networks integrated with satellite systems.</p>
+            <a href="research.html" class="rp-link">Learn more →</a>
+          </div>
+        </div>
+
+        <div class="rp-card anim-target">
+          <div class="rp-img">
+            <img src="http://comnet.ulsan.ac.kr/projects/energy_ict.png" alt="Energy ICT" />
+          </div>
+          <div class="rp-body">
+            <div class="rp-icon">⚡</div>
+            <h3>Energy ICT</h3>
+            <p>IoT-enabled renewable energy management, solar and wind power forecasting with ML, battery energy storage system (BESS) optimization, and smart grid security.</p>
+            <a href="research.html" class="rp-link">Learn more →</a>
+          </div>
+        </div>
+
+        <div class="rp-card anim-target">
+          <div class="rp-img">
+            <img src="http://comnet.ulsan.ac.kr/projects/factory.jpg" alt="Smart Factory" />
+          </div>
+          <div class="rp-body">
+            <div class="rp-icon">🏭</div>
+            <h3>Smart Factory</h3>
+            <p>AI-driven real-time fault diagnosis, CNN-based engine load classification, and process optimization for Industry 4.0 manufacturing environments.</p>
+            <a href="research.html" class="rp-link">Learn more →</a>
+          </div>
+        </div>
+
+        <div class="rp-card anim-target">
+          <div class="rp-img">
+            <img src="http://comnet.ulsan.ac.kr/projects/Blockchain.webp" alt="Blockchain" />
+          </div>
+          <div class="rp-body">
+            <div class="rp-icon">🔗</div>
+            <h3>Blockchain in Wireless Communication</h3>
+            <p>Decentralized, tamper-resistant security for wireless networks and IoT using sharding blockchain, with ML-optimized protocols for dynamic environments.</p>
+            <a href="research.html" class="rp-link">Learn more →</a>
+          </div>
+        </div>
+
+      </div>
+    </div>
+  </section>
+
+  <!-- NEWS STRIP -->
+  <section class="section news-strip">
+    <div class="container">
+      <div class="section-header">
+        <span class="section-tag">News</span>
+        <h2 class="section-title">Latest from the Lab</h2>
+      </div>
+      <div class="ns-grid">
+        <div class="ns-card anim-target">
+          <div class="ns-date">2026</div>
+          <span class="ns-tag ns-tag--pub">Publication</span>
+          <h4>Paper in IEEE Transactions on Wireless Communications</h4>
+          <p>Kumbi et al.: "Mobility and QoS-Aware Energy Efficient Scheduling for Highway Environments Using Deep Reinforcement Learning."</p>
+        </div>
+        <div class="ns-card anim-target">
+          <div class="ns-date">2026</div>
+          <span class="ns-tag ns-tag--conf">Conference</span>
+          <h4>ICEIC 2026 — Macau, China</h4>
+          <p>ComNeT presents "QoS-Aware Downlink Scheduling Algorithm for GBR and non-GBR Flows in 5G Networks" at ICEIC 2026.</p>
+        </div>
+        <div class="ns-card anim-target">
+          <div class="ns-date">Feb 2026</div>
+          <span class="ns-tag ns-tag--award">Graduation</span>
+          <h4>Two Ph.D. Graduates in Feb 2026</h4>
+          <p>Congratulations to Dr. Yemane Teklay Seyoum and Dr. Manan Abdul on completing their Ph.D. degrees.</p>
+        </div>
+      </div>
+      <div style="text-align:center;margin-top:2.5rem;">
+        <a href="news.html" class="btn btn-ghost">View All News →</a>
+      </div>
+    </div>
+  </section>
+
+  <!-- CTA BANNER -->
+  <section class="cta-banner">
+    <div class="container">
+      <h2>Interested in Joining ComNeT?</h2>
+      <p>We are accepting applications for combined MS &amp; PhD positions. Strong programming and analytical skills required.</p>
+      <div class="cta-actions">
+        <a href="contact.html" class="btn btn-primary">Apply Now</a>
+        <a href="about.html" class="btn btn-outline">Learn About the Lab</a>
+      </div>
+    </div>
+  </section>
+
+  <!-- FOOTER -->
+  <footer class="footer">
+    <div class="container">
+      <div class="footer-grid">
+        <div class="footer-brand">
+          <div class="footer-logo"><span class="logo-icon">⬡</span><span>ComNeT Lab</span></div>
+          <p>Communications and Networking Laboratory<br/>School of Electrical Engineering<br/>University of Ulsan, Korea · Est. 2010</p>
+          <p style="margin-top:0.5rem;">PI: Prof. Sungoh Kwon · comnet.uou@gmail.com</p>
+        </div>
+        <div class="footer-links-col">
+          <h5>Pages</h5>
+          <ul>
+            <li><a href="about.html">About</a></li>
+            <li><a href="research.html">Research</a></li>
+            <li><a href="team.html">Team</a></li>
+            <li><a href="publications.html">Publications</a></li>
+            <li><a href="news.html">News</a></li>
+            <li><a href="contact.html">Contact</a></li>
+          </ul>
+        </div>
+        <div class="footer-links-col">
+          <h5>Research</h5>
+          <ul>
+            <li><a href="research.html">5G/6G Optimization</a></li>
+            <li><a href="research.html">Energy ICT</a></li>
+            <li><a href="research.html">Smart Factory</a></li>
+            <li><a href="research.html">Blockchain &amp; IoT</a></li>
+          </ul>
+        </div>
+        <div class="footer-links-col">
+          <h5>Partners</h5>
+          <ul>
+            <li><a href="#">ETRI Korea</a></li>
+            <li><a href="#">Hyundai</a></li>
+            <li><a href="#">IMDEA Networks</a></li>
+            <li><a href="#">ÉTS Canada</a></li>
+            <li><a href="#">KHNP · Sesu.ai</a></li>
+          </ul>
+        </div>
+      </div>
+      <div class="footer-bottom">
+        <p>&copy; 2026 ComNeT Lab, University of Ulsan. All rights reserved.</p>
+        <div class="footer-social">
+          <a href="https://comnet.ulsan.ac.kr/" aria-label="Website">🌐</a>
+          <a href="mailto:comnet.uou@gmail.com" aria-label="Email">✉</a>
+        </div>
+      </div>
+    </div>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>

@@ -1,0 +1,193 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" /><meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>About — ComNeT Lab</title>
+  <link rel="stylesheet" href="style.css" />
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&family=Merriweather:wght@300;400;700&display=swap" rel="stylesheet" />
+</head>
+<body>
+  <nav class="navbar" id="navbar">
+    <div class="nav-container">
+      <a href="index.html" class="nav-logo"><span class="logo-icon">⬡</span><span>ComNeT Lab</span></a>
+      <button class="nav-toggle" id="navToggle"><span></span><span></span><span></span></button>
+      <ul class="nav-links" id="navLinks">
+        <li><a href="about.html" class="active-page">About</a></li>
+        <li><a href="research.html">Research</a></li>
+        <li><a href="team.html">Team</a></li>
+        <li><a href="alumni.html">Alumni</a></li>
+        <li><a href="publications.html">Publications</a></li>
+        <li><a href="news.html">News</a></li>
+        <li><a href="contact.html" class="nav-cta">Contact</a></li>
+      </ul>
+    </div>
+  </nav>
+
+  <!-- PAGE HERO -->
+  <div class="page-hero">
+    <div class="container page-hero-content">
+      <div class="page-hero-badge">University of Ulsan · School of Electrical Engineering</div>
+      <h1>About ComNeT Lab</h1>
+      <p>Communications and Networking Laboratory — bridging academia and industry since 2010.</p>
+    </div>
+  </div>
+
+  <!-- ABOUT MAIN -->
+  <section class="section" style="background:var(--white);">
+    <div class="container">
+      <div class="about-hero-grid">
+        <div class="about-text">
+          <span class="section-tag">Our Mission</span>
+          <h2 class="section-title">Bridging Academia and Industry in Next-Generation Networks</h2>
+          <p>
+            The Communications and Networking Laboratory (ComNeT) was established in 2010 within the
+            School of Electrical Engineering at the University of Ulsan, Korea. Supervised by
+            Prof. Sungoh Kwon, ComNeT mentors undergraduate and graduate students to scale up their
+            practical and professional knowledge while building strong connections between academia and industry.
+          </p>
+          <p>
+            In ComNeT, students are working on mobile communication, sensor networks, and bio-signal
+            processing. We actively co-work with industry partners including <strong>Hyundai</strong>,
+            <strong>ETRI</strong>, and <strong>Sinkpuls</strong> for new inventions, and collaborate
+            internationally with IMDEA Networks (Spain), ÉTS (Canada), and KNRF.
+          </p>
+          <p>
+            The lab has produced numerous PhD graduates who have gone on to positions at leading
+            universities, research institutes, and companies worldwide. We provide a rigorous yet
+            supportive research environment where students develop both theoretical depth and
+            practical engineering skills.
+          </p>
+          <div class="about-pillars">
+            <div class="pillar"><div class="pillar-icon">📡</div><strong>Mobile Communications</strong></div>
+            <div class="pillar"><div class="pillar-icon">⚡</div><strong>Energy ICT</strong></div>
+            <div class="pillar"><div class="pillar-icon">🏭</div><strong>Smart Factory</strong></div>
+            <div class="pillar"><div class="pillar-icon">🔗</div><strong>Blockchain &amp; IoT</strong></div>
+          </div>
+        </div>
+
+        <div class="about-pi">
+          <div class="pi-card">
+            <div class="pi-photo-wrap">
+              <img src="http://comnet.ulsan.ac.kr/members/Professor.jpg" alt="Prof. Sungoh Kwon" />
+            </div>
+            <h3>Prof. Sungoh Kwon (권성오)</h3>
+            <span class="pi-title">Principal Investigator &amp; Lab Director</span>
+            <p class="pi-bio">
+              Ph.D., Electrical &amp; Computer Engineering, Purdue University, 2007.
+              M.S. in Electrical Engineering, KAIST, 1996. B.S. in Electrical Engineering, KAIST, 1994.
+              IEEE Senior Member. Author of 50+ international journal papers and 15+ US patents.
+            </p>
+            <div class="pi-links">
+              <a href="mailto:sungoh@ulsan.ac.kr" class="pi-link">Email</a>
+              <a href="https://comnet.ulsan.ac.kr/" class="pi-link" target="_blank">Lab Site</a>
+            </div>
+            <div class="pi-exp">
+              <h4>Professional Experience</h4>
+              <div class="pi-exp-item"><div class="pi-exp-dot"></div><p><strong>Professor</strong> — School of Electrical Engineering, University of Ulsan (2019–Present)</p></div>
+              <div class="pi-exp-item"><div class="pi-exp-dot"></div><p><strong>Associate Professor</strong> — University of Ulsan (2014–2019)</p></div>
+              <div class="pi-exp-item"><div class="pi-exp-dot"></div><p><strong>Visiting Professor</strong> — IMDEA Networks, Madrid, Spain (2016–2017)</p></div>
+              <div class="pi-exp-item"><div class="pi-exp-dot"></div><p><strong>Principal Engineer</strong> — Samsung Electronics, Seoul (2007–2010)</p></div>
+              <div class="pi-exp-item"><div class="pi-exp-dot"></div><p><strong>Assistant Manager</strong> — Shinsegi Telecomm Inc., Seoul (1996–2001)</p></div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- RESEARCH INTERESTS -->
+  <section class="section" style="background:var(--gray-50);">
+    <div class="container">
+      <div class="section-header">
+        <span class="section-tag">Research Interests</span>
+        <h2 class="section-title">Prof. Kwon's Research Focus</h2>
+        <p class="section-desc">Wireless/wireline communication networks and their applications across the full networking stack.</p>
+      </div>
+      <div style="display:grid;grid-template-columns:repeat(3,1fr);gap:1.5rem;">
+        <div class="pillar" style="flex-direction:column;align-items:flex-start;padding:1.5rem;gap:0.75rem;">
+          <div class="pillar-icon" style="font-size:2rem;">📡</div>
+          <strong style="font-size:1rem;">5G/6G MAC &amp; Routing Protocols</strong>
+          <p style="font-size:0.85rem;color:var(--text-muted);font-weight:400;">Design and evaluation of routing and MAC protocols for 3G/4G/5G/6G networks and IoT.</p>
+        </div>
+        <div class="pillar" style="flex-direction:column;align-items:flex-start;padding:1.5rem;gap:0.75rem;">
+          <div class="pillar-icon" style="font-size:2rem;">🔧</div>
+          <strong style="font-size:1rem;">Network Optimization</strong>
+          <p style="font-size:0.85rem;color:var(--text-muted);font-weight:400;">Optimization problems in communication networks — resource allocation, scheduling, load balancing.</p>
+        </div>
+        <div class="pillar" style="flex-direction:column;align-items:flex-start;padding:1.5rem;gap:0.75rem;">
+          <div class="pillar-icon" style="font-size:2rem;">📊</div>
+          <strong style="font-size:1rem;">Network Capacity Analysis</strong>
+          <p style="font-size:0.85rem;color:var(--text-muted);font-weight:400;">Network capacity of multi-hop wireless networks and vehicular-to-vehicle (V2V) systems.</p>
+        </div>
+        <div class="pillar" style="flex-direction:column;align-items:flex-start;padding:1.5rem;gap:0.75rem;">
+          <div class="pillar-icon" style="font-size:2rem;">🌱</div>
+          <strong style="font-size:1rem;">Energy Efficiency</strong>
+          <p style="font-size:0.85rem;color:var(--text-muted);font-weight:400;">Energy efficiency in communication networks, renewable energy forecasting, battery management.</p>
+        </div>
+        <div class="pillar" style="flex-direction:column;align-items:flex-start;padding:1.5rem;gap:0.75rem;">
+          <div class="pillar-icon" style="font-size:2rem;">🚗</div>
+          <strong style="font-size:1rem;">Vehicular Networks</strong>
+          <p style="font-size:0.85rem;color:var(--text-muted);font-weight:400;">V2V, V2I and in-vehicle communication protocols; mobility and location management.</p>
+        </div>
+        <div class="pillar" style="flex-direction:column;align-items:flex-start;padding:1.5rem;gap:0.75rem;">
+          <div class="pillar-icon" style="font-size:2rem;">📍</div>
+          <strong style="font-size:1rem;">Mobility Management</strong>
+          <p style="font-size:0.85rem;color:var(--text-muted);font-weight:400;">Mobility and location management in multi-hop wireless networks; handover optimization.</p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- PARTNERS -->
+  <section class="section partners-section">
+    <div class="container">
+      <div class="section-header">
+        <span class="section-tag">Collaborators</span>
+        <h2 class="section-title">Industry &amp; Academic Partners</h2>
+      </div>
+      <div class="partners-grid">
+        <div class="partner-card anim-target"><div class="partner-icon">🏢</div><h4>ETRI</h4><p>Electronics and Telecommunications Research Institute, Korea</p></div>
+        <div class="partner-card anim-target"><div class="partner-icon">🚗</div><h4>Hyundai</h4><p>Joint research on automotive communication and IoT networks</p></div>
+        <div class="partner-card anim-target"><div class="partner-icon">🔬</div><h4>IMDEA Networks</h4><p>Leganés, Madrid, Spain — mmWave and network management research</p></div>
+        <div class="partner-card anim-target"><div class="partner-icon">🎓</div><h4>ÉTS Canada</h4><p>École de technologie supérieure — joint publications and alumni placement</p></div>
+        <div class="partner-card anim-target"><div class="partner-icon">⚡</div><h4>KHNP</h4><p>Korea Hydro &amp; Nuclear Power — Energy ICT research collaboration</p></div>
+        <div class="partner-card anim-target"><div class="partner-icon">🤖</div><h4>Sesu.ai</h4><p>Smart factory AI and energy network research partnership</p></div>
+        <div class="partner-card anim-target"><div class="partner-icon">🔗</div><h4>HHI &amp; SpaceCode</h4><p>Blockchain in wireless communications research</p></div>
+        <div class="partner-card anim-target"><div class="partner-icon">📡</div><h4>Sinkpuls</h4><p>Industry partner for sensor network innovations</p></div>
+      </div>
+    </div>
+  </section>
+
+  <!-- CTA -->
+  <section class="cta-banner">
+    <div class="container">
+      <h2>Join Our Research Team</h2>
+      <p>MS &amp; PhD positions available — strong background in communications or networking required.</p>
+      <div class="cta-actions">
+        <a href="contact.html" class="btn btn-primary">Contact Us</a>
+        <a href="team.html" class="btn btn-outline">Meet the Team</a>
+      </div>
+    </div>
+  </section>
+
+  <footer class="footer">
+    <div class="container">
+      <div class="footer-grid">
+        <div class="footer-brand">
+          <div class="footer-logo"><span class="logo-icon">⬡</span><span>ComNeT Lab</span></div>
+          <p>Communications and Networking Laboratory<br/>School of Electrical Engineering, University of Ulsan, Korea</p>
+          <p style="margin-top:0.5rem;">comnet.uou@gmail.com</p>
+        </div>
+        <div class="footer-links-col"><h5>Pages</h5><ul><li><a href="index.html">Home</a></li><li><a href="about.html">About</a></li><li><a href="research.html">Research</a></li><li><a href="team.html">Team</a></li><li><a href="publications.html">Publications</a></li><li><a href="contact.html">Contact</a></li></ul></div>
+        <div class="footer-links-col"><h5>Research</h5><ul><li><a href="research.html">5G/6G Optimization</a></li><li><a href="research.html">Energy ICT</a></li><li><a href="research.html">Smart Factory</a></li><li><a href="research.html">Blockchain &amp; IoT</a></li></ul></div>
+        <div class="footer-links-col"><h5>University</h5><ul><li><a href="http://global.ulsan.ac.kr" target="_blank">University of Ulsan</a></li><li><a href="https://comnet.ulsan.ac.kr/" target="_blank">Lab Website</a></li></ul></div>
+      </div>
+      <div class="footer-bottom">
+        <p>&copy; 2026 ComNeT Lab, University of Ulsan.</p>
+        <div class="footer-social"><a href="https://comnet.ulsan.ac.kr/">🌐</a><a href="mailto:comnet.uou@gmail.com">✉</a></div>
+      </div>
+    </div>
+  </footer>
+  <script src="script.js"></script>
+</body>
+</html>
