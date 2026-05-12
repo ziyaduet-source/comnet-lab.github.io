@@ -589,7 +589,7 @@ body {
 .news-card:hover { box-shadow: var(--shadow-lg); border-color: var(--green); transform: translateY(-3px); }
 .news-card--featured {
   grid-column: span 2;
-  background: linear-gradient(135deg, #041a0d 0%, #0a3d1f 60%, #0d5028 100%);
+  background: linear-gradient(135deg, #ececec85 0%, #ececec85 60%, #ececec85 100%);
   border-color: rgba(0,156,91,0.3); color: var(--white);
 }
 .news-card--featured h4 { color: #ffffff; }
